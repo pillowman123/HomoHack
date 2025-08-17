@@ -8,6 +8,7 @@ bool isCordsOnScreen(SDK::Structs::Unity::Vector3& screenPosition) {
 }
 
 float fixedScaleFromDistance(float a, SDK::Structs::Unity::Vector3 basePosition, SDK::Structs::Unity::Vector3 targetPosition) {
+	//https://www.unknowncheats.me/forum/cs-go-releases/303142-head-skeleton-esp.html (I FUCKING LOVE UNKNOWNCHEATS MY NIGGAS)
 	return (a / SDK::Structs::Unity::Vector3::Distance(basePosition, targetPosition));
 }
 
