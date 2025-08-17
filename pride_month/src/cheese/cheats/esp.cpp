@@ -14,6 +14,7 @@ float fixedScaleFromDistance(float a, SDK::Structs::Unity::Vector3 basePosition,
 
 const char* formattedText(const char* fmt, ...)
 {
+	//unused, never got to adding bone esp to actually use this.
 	char buffer[256];
 
 	va_list args{};
